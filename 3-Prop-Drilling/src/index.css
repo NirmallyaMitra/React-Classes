@@ -55,10 +55,17 @@ body {
     font-weight: 500;
     margin-bottom: 12px;
   }
-  .badge-dot {
+  .badge-dot-green {
     width: 8px;
     height: 8px;
     background: #34c759;
+    border-radius: 50%;
+  }
+
+  .badge-dot-red {
+    width: 8px;
+    height: 8px;
+    background: #c73434;
     border-radius: 50%;
   }
 
