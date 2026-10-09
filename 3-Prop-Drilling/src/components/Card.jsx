@@ -61,7 +61,7 @@ const Card = (props) => {
 
       <div className="dates">
         {props.doctor.appointments.map((Obj, idx) => (
-          <div className="date-chip active">
+          <div className="date-chip active" key={idx}>
             <span className="chip-date">{Obj.date}</span>
             <span className="chip-appts">{Obj.count} appts</span>
           </div>
